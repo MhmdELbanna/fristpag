@@ -633,7 +633,10 @@ height: 400px;
     width: 100%;
     
 }
-.team-item .team-info {}
+.team-item .team-info {
+    position: relative;
+    z-index: 1;
+}
 .team-item .team-info .team-info-title{
     color: #222;
     margin: 10px 0;
